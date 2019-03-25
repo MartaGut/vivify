@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MartaGut/vivify/issues"
   },
-  "homepage": "https://github.com/MartaGut/vivify#readme"
+  "homepage": "https://github.com/MartaGut/vivify#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
