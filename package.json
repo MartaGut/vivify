@@ -1,0 +1,19 @@
+{
+  "name": "vivify",
+  "version": "1.0.0",
+  "description": "Probni Zadatak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartaGut/vivify.git"
+  },
+  "author": "Marta Gut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartaGut/vivify/issues"
+  },
+  "homepage": "https://github.com/MartaGut/vivify#readme"
+}
