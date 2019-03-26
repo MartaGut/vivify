@@ -1,0 +1,20 @@
+
+.footer{
+    background-color: $footer;
+    height: 140px;
+    text-align: center;
+
+}
+.menu-item{
+    display: inline-block;
+    color: $nav-background;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 45px;
+}
+.footer__copyright{
+    padding: 15px;
+    color: #5e8aa7;
+    font-size: 12px;
+}

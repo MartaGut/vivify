@@ -1,3 +1,17 @@
+$blue-letters: #1378bc;
+$green-button: #46b688;
+$second-line: #efefef;
+$nav-letters: #8e8e8e;
+$nav-background: #fafafa;
+$footer: #666666;
+
 body{
-    color: red;
+   max-width: 960px;
+   max-height: 1200px;
+   font-family: Arial, Helvetica, sans-serif;
 }
+
+@import "header";
+@import "nav";
+@import "main";
+@import "footer";

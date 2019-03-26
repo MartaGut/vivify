@@ -1,0 +1,56 @@
+.first-line__logo{
+    width: 70px;
+    height: 20px;
+    margin-top: 8px;
+}
+.first-line__header{
+    margin-left: 120px;
+    display: inline-block;
+    font-size: 16px;
+    color: $blue-letters;
+    font-weight: 100;
+}
+._float-right{
+    float: right;
+}
+.button{ 
+    height: 27px;
+    margin-top: -10px;
+    font-size: 8px;
+    margin: 5px;
+}
+.first-line__green-button{
+    background-color: $green-button;
+    width: 170px;
+    border: none;
+    color: white;
+}
+.first-line__white-button{
+    margin-right: 25px;
+    color: $blue-letters;
+    border: 1px solid $blue-letters;
+    color: $blue-letters;
+    background-color: white;
+}
+.second-line{
+    
+    background-color: $second-line;
+    color: $blue-letters;
+    font-size: 10px;
+}
+.second-line__text{
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: block;
+}
+@media (max-width: 700px){
+    .first-line__header{
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    ._float-right{
+        float: none;
+    }
+}

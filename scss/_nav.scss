@@ -1,0 +1,36 @@
+.nav{
+    padding: 10px;
+    background-color: $nav-background;
+
+}
+.nav__menu-item{
+    display: block;
+    text-decoration: none;
+    font-size: 11px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: $nav-letters;
+    margin-left: -10px;
+}
+.middle-container{
+    display: grid;
+    grid-template-columns: 170px auto;
+    padding-bottom: 30px;
+} 
+
+
+
+@media (max-width: 300px){
+    .nav {
+        display: none;
+    }
+    .middle-container{
+        display: grid;
+        grid-template-columns: auto;
+        padding-bottom: 30px;
+    }
+    .middle-container__mobile-button{
+        display: block;
+    }
+
+}
